@@ -11,7 +11,7 @@ pipeline {
     stage('Test') {
 
       steps {
-        ss './PES1UG20CS465'
+        sh './PES1UG20CS465'
       }
     }
     stage('Deploy') {
